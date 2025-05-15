@@ -334,7 +334,7 @@ function HeroSection() {
     <>
       <section
         className="banner-section"
-        style={{ background: "url('/fotoprincipal.png') center/cover no-repeat" }}
+        style={{ background: `url(${bannerImg}) center/cover no-repeat` }}
       >
         <div className="banner-overlay"></div>
         <div className="banner-content">
