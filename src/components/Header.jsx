@@ -25,7 +25,11 @@ function Header() {
         <Link to="/suplementos">Suplementos</Link>
         <Link to="/" onClick={scrollToNossoEspaco}>Nosso Espaço</Link>
         <Link to="/contato">Contato</Link>
-        <Link to="/planos"><button className="btn-agendar">Agendar Aula</button></Link>
+        <Link to="/planos">
+          <button className="btn-agendar btn-agendar--highlight">
+            Agendar Aula
+          </button>
+        </Link>
       </nav>
     </header>
   );
