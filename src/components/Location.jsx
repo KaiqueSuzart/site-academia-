@@ -15,7 +15,7 @@ function Location() {
       marginBottom: 0,
       border: 'none',
     }}>
-      <div style={{
+      <div data-reveal="fade-up" style={{
         color: '#FF2222',
         fontWeight: 900,
         fontSize: 'clamp(2rem, 4vw, 3.2rem)',
@@ -33,7 +33,7 @@ function Location() {
           AO LADO DA AV. GIOVANNI GRONCHI
         </span>
       </div>
-      <div style={{
+      <div data-reveal="zoom-in" style={{
         background: 'rgba(255,255,255,0.98)',
         borderRadius: 18,
         boxShadow: '0 4px 32px #0008',

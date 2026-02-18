@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# 🏋️ BrabusFit American — Site Oficial
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Site institucional moderno e responsivo da academia **BrabusFit American**, desenvolvido em **React.js** com design premium no estilo agência high ticket.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Sobre o Projeto
 
-### `npm start`
+O **BrabusFit American** é um centro de treinamento completo localizado ao lado da Av. Giovanni Gronchi, em São Paulo. Este site foi criado para apresentar a academia de forma profissional, atrair novos alunos e facilitar o contato e a matrícula online.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O projeto foi desenvolvido do zero com foco em:
+- Design moderno, clean e impactante
+- Experiência do usuário (UX) de alta qualidade
+- Animações suaves e efeitos visuais premium
+- Layout 100% responsivo para celular e desktop
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Hero com imagem de fundo** e chamada emocional para conversão
+- **Menu com glass effect** (blur) e mudança visual ao rolar a página
+- **Carrossel de imagens** — "Nosso Espaço" com troca automática e setas sobrepostas
+- **Seção Sobre** — texto + imagem lado a lado com overlay
+- **Números animados** — contadores que sobem ao rolar (800+ alunos, 12+ anos, 15+ profissionais)
+- **Depoimentos** — carrossel automático com avaliações dos alunos
+- **Planos e Preços** — cards Bronze, Gold e Elite com destaque no plano principal
+- **Download do App** — banner de download do aplicativo oficial
+- **Localização** — mapa integrado com Google Maps
+- **Footer premium** — contato, links rápidos, redes sociais e horários de funcionamento
+- **Botão WhatsApp fixo** — flutuante para contato rápido
+- **Micro animações** — fade-in e zoom ao rolar a página
+- **Scroll suave** entre seções
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tecnologias Utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Tecnologia | Descrição |
+|---|---|
+| [React.js](https://reactjs.org/) | Biblioteca principal de interface |
+| [React Router DOM](https://reactrouter.com/) | Navegação entre páginas |
+| [React Icons](https://react-icons.github.io/react-icons/) | Ícones modernos |
+| CSS Variáveis | Paleta de cores centralizada e fácil de editar |
+| IntersectionObserver API | Animações de scroll sem bibliotecas externas |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📁 Estrutura do Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+src/
+├── assets/           # Imagens da academia
+├── components/
+│   ├── Header.jsx    # Menu de navegação com glass effect
+│   ├── HeroSection.jsx # Hero, carrossel, planos, depoimentos, impacto
+│   ├── Location.jsx  # Seção de localização com mapa
+│   ├── Footer.jsx    # Rodapé completo
+│   └── Logo.jsx      # Componente de logo
+├── pages/
+│   ├── Home.jsx
+│   ├── GradeAulas.jsx
+│   ├── Nutricao.jsx
+│   ├── Suplementos.jsx
+│   ├── NossoEspaco.jsx
+│   ├── Planos.jsx
+│   └── Contato.jsx
+├── App.js            # Rotas principais
+├── App.css           # Estilos globais e variáveis CSS
+└── index.js          # Ponto de entrada
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ▶️ Como Rodar o Projeto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Pré-requisitos
+- [Node.js](https://nodejs.org/) instalado (versão 16+)
+- npm
 
-## Learn More
+### Passos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clone o repositório
+git clone https://github.com/KaiqueSuzart/site-academia-.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Entre na pasta do projeto
+cd site-academia-
 
-### Code Splitting
+# Instale as dependências
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Inicie o servidor de desenvolvimento
+npm start
+```
 
-### Analyzing the Bundle Size
+Acesse em: [http://localhost:3000](http://localhost:3000)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📦 Build para Produção
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm run build
+```
 
-### Advanced Configuration
+Os arquivos otimizados serão gerados na pasta `/build`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📞 Contato
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**BrabusFit American**
+- 📍 Ao lado da Av. Giovanni Gronchi — São Paulo/SP
+- 📱 (11) 9999-9999
+- 🌐 [App disponível na Play Store](https://play.google.com/store/apps/details?id=br.com.w12.brabusfit&hl=pt_BR)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Desenvolvido com 💪 para a BrabusFit American
